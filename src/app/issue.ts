@@ -1,7 +1,8 @@
 export interface Issue {
+    issueNo: number;
     title: string;
     description: string;
-    proirity: 'low' | 'high';
+    priority: 'low' | 'high';
     type: 'Feature' | 'Bug' | 'Documentation';
     completed?: Date;
 }
